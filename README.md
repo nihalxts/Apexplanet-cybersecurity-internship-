@@ -1,2 +1,2 @@
 # Apexplanet-cybersecurity-internship-
-A collection of all tasks, reports, and projects completed during the ApexPlanet Cybersecurity &amp; Ethical Hacking Internship.
+Basic concepts of cybersecurity, networking, Linux commands, cryptography, and installation of the virtual lab (Kali Linux & Metasploitable).
