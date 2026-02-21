@@ -1,0 +1,80 @@
+1. Introduction
+
+Linux is the backbone of cybersecurity tools. Almost all penetration testing tools run on Linux.
+
+2. Linux File System Structure
+
+Common directories:
+
+/home – user files
+
+/etc – configuration files
+
+/var – logs, variable data
+
+/bin & /sbin – system binaries
+
+/usr – user-installed applications
+
+3. Basic Commands
+
+Navigation
+ls
+cd directory
+pwd
+mkdir folder
+rmdir folder
+
+
+File Handling
+touch file
+cp old new
+mv file folder
+rm file
+
+Viewing Content
+cat file
+less file
+head file
+tail file
+
+4. Permissions
+
+Format example:
+
+-rwxr-xr--
+
+Meaning:
+
+Owner can read/write/execute
+
+Group can read/execute
+
+Others can only read
+
+Change Permissions
+chmod 755 script.sh
+Change File Ownership
+chown user:user file
+
+5. Package Management (APT)
+apt update
+apt upgrade
+apt install <package>
+apt remove <package>
+
+6. Networking Commands
+ifconfig / ip addr
+ping IP
+netstat -tulnp
+traceroute website.com
+
+7. Why Linux Is Important
+
+Open source
+
+Highly customizable
+
+Runs hacking tools natively
+
+Used in servers and cloud systems

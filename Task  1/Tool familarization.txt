@@ -1,0 +1,100 @@
+1. Nmap
+
+A network scanning tool used for:
+
+Discovering hosts
+
+Scanning ports
+
+Finding running services
+
+Detecting operating systems
+
+Common Commands
+nmap <ip>
+nmap -sV <ip>
+nmap -A <ip>
+nmap -p- <ip>
+2. Wireshark
+
+A packet capturing and protocol analysis tool.
+
+What It Can Do
+
+Capture all network packets
+
+Analyze TCP/UDP communication
+
+See DNS queries
+
+View HTTP traffic
+
+Detect insecure passwords (if unencrypted)
+
+Useful Filters
+http
+dns
+tcp
+udp
+ftp
+ip.addr == <ip>
+3. Burp Suite
+
+A web application testing tool.
+
+Features
+
+Proxy for intercepting requests
+
+Scanner for vulnerabilities
+
+Repeater for modifying requests
+
+Intruder for brute-force attacks
+
+Basic Workflow
+
+Start Burp
+
+Configure browser to use proxy
+
+Enable intercept
+
+Visit website
+
+Modify/analyze requests
+
+4. Netcat
+
+A networking tool used for:
+
+Opening ports
+
+Creating backdoors
+
+File transfer
+
+Banner grabbing
+
+Examples
+
+Start a listener:
+
+nc -lvp 4444
+
+Connect:
+
+nc <ip> 4444
+
+Send a file:
+
+nc <ip> 4444 < file.txt
+5. Why These Tools Matter
+
+Used in professional penetration testing
+
+Helps understand network behavior
+
+Used in vulnerability assessment
+
+Important for labs like DVWA and Metasploitable

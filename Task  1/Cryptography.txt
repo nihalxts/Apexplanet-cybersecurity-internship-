@@ -1,0 +1,61 @@
+1. Introduction
+
+Cryptography protects data through mathematical techniques. It ensures confidentiality, integrity, and authentication.
+
+2. Types of Cryptography
+a) Symmetric Encryption
+
+Same key for encryption and decryption
+
+Very fast
+
+Example: AES
+
+b) Asymmetric Encryption
+
+Public key + Private key
+
+Slower but more secure
+
+Used in HTTPS, SSH
+
+Example: RSA, ECC
+
+3. Hashing
+
+One-way function — cannot be reversed.
+
+Used for:
+
+Password storage
+
+File integrity
+
+Examples:
+
+MD5
+
+SHA-1, SHA-256
+
+4. Digital Certificates & PKI
+
+Used in HTTPS
+
+Verifies website identity
+
+Ensures encrypted communication
+
+5. OpenSSL Practical Usage
+Encrypt a File:
+openssl enc -aes-256-cbc -in file.txt -out encrypted.bin
+Decrypt a File:
+openssl enc -aes-256-cbc -d -in encrypted.bin -out file.txt
+6. Real-World Importance
+
+Protects financial transactions
+
+Secures communication
+
+Prevents identity theft
+
+Used in VPNs, SSH, SSL/TLS

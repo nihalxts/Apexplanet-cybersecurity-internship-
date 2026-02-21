@@ -1,0 +1,94 @@
+1. Introduction
+
+Networking knowledge is critical for cybersecurity because most attacks involve communication between systems.
+
+
+2. OSI Model (7 Layers)
+
+Physical – cabling, signals
+
+Data Link – MAC addressing
+
+Network – IP addressing, routing
+
+Transport – TCP/UDP
+
+Session – communication management
+
+Presentation – encryption, encoding
+
+Application – HTTP, DNS, FTP, SMTP
+
+
+3. TCP/IP Model
+
+Application
+
+Transport
+
+Internet
+
+Network Access
+
+Used in real-world networks.
+
+
+4. Important Protocols
+TCP
+
+Reliable, connection-oriented (web, email, SSH)
+
+UDP
+
+Faster, connectionless (VoIP, streaming, DNS)
+
+HTTP/HTTPS
+
+Web browsing protocols.
+
+DNS
+
+Resolves domain names → IP addresses.
+
+DHCP
+
+Assigns IP addresses dynamically.
+
+5. IP Addressing
+IPv4 Format
+
+Example: 192.168.1.10
+
+Private IP Ranges
+
+192.168.x.x
+
+10.x.x.x
+
+172.16–31.x.x
+
+Subnetting
+
+Dividing networks for efficient IP use.
+
+6. NAT (Network Address Translation)
+
+Converts private IPs to public IPs
+
+Used in home routers
+
+7. Packet Flow Basics
+
+When you open a website:
+
+DNS resolves domain
+
+Browser sends TCP handshake
+
+Server responds
+
+Data is exchanged
+
+Connection is closed
+
+Understanding packet flow helps in traffic analysis and attacks.

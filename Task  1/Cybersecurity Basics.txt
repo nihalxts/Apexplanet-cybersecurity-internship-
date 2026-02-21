@@ -1,0 +1,73 @@
+1. Introduction to Cybersecurity
+
+Cybersecurity is the practice of protecting computer systems, networks, applications, and data from unauthorized access, attacks, damage, or theft. Modern organizations rely heavily on digital systems, making cybersecurity a critical part of IT operations.
+
+2. The CIA Triad
+
+The CIA Triad is the foundation of cybersecurity.
+
+a) Confidentiality
+
+Ensuring information is accessible only to authorized individuals.
+Techniques: encryption, authentication, access controls, passwords, 2FA.
+
+b) Integrity
+
+Ensuring information is accurate, unchanged, and trustworthy.
+Techniques: hashing, checksums, digital signatures, version control.
+
+c) Availability
+
+Ensuring systems and data are accessible whenever needed.
+Techniques: backups, redundancy, DDoS protection, fault-tolerant systems.
+
+3. Common Cybersecurity Threats
+Phishing
+
+Fake emails/messages used to steal credentials.
+
+Malware
+
+Includes viruses, trojans, worms, spyware, ransomware.
+
+Ransomware
+
+Encrypts data and demands payment for decryption.
+
+DDoS Attacks
+
+Overloads a server with massive traffic to disrupt availability.
+
+Man-in-the-Middle (MITM)
+
+Intercepting communication between two parties.
+
+SQL Injection
+
+Injecting malicious SQL commands to access database data.
+
+Brute Force Attack
+
+Trying multiple password combinations until one works.
+
+4. Attack Vectors
+
+Social Engineering: manipulating humans to reveal information
+
+Network Exploits: exploiting insecure services
+
+Physical Attacks: stealing devices, plugging malicious USB
+
+Wireless Attacks: cracking WiFi, eavesdropping
+
+Insider Threats: harmful actions by internal employees
+
+5. Importance of Cybersecurity
+
+Protects sensitive data
+
+Prevents financial losses
+
+Maintains trust & reputation
+
+Ensures legal & regulatory compliance
