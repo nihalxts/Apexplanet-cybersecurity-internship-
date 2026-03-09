@@ -1,0 +1,79 @@
+# Packet Analysis Using Wireshark
+
+## Objective
+
+Packet analysis involves capturing and examining network traffic to understand how data flows through a network.
+
+This helps security analysts detect suspicious activities and troubleshoot network problems.
+
+## Tool Used
+
+Wireshark
+
+Wireshark is a network protocol analyzer used to capture and analyze packets in real time.
+
+## Capturing Network Traffic
+
+To begin capturing packets:
+
+1. Open Wireshark.
+2. Select the active network interface.
+3. Start packet capture.
+
+## HTTP Traffic Analysis
+
+HTTP traffic shows communication between a web browser and a web server.
+
+Filter used:
+
+```
+http
+```
+
+This displays all HTTP packets.
+
+## DNS Traffic Analysis
+
+DNS traffic shows domain name requests.
+
+Filter used:
+
+```
+dns
+```
+
+Example:
+A DNS request when visiting a website.
+
+## FTP Credential Capture
+
+FTP traffic is not encrypted. Therefore, usernames and passwords can sometimes be seen in packet captures.
+
+Filter used:
+
+```
+ftp
+```
+
+Look for packets containing:
+
+* USER
+* PASS
+
+This demonstrates why secure protocols such as SFTP are recommended.
+
+## SYN Flood Detection
+
+A SYN flood attack sends many TCP SYN packets to overwhelm a server.
+
+Using packet filtering, large numbers of SYN packets can be detected.
+
+Example filter:
+
+```
+tcp.flags.syn == 1
+```
+
+## Conclusion
+
+Packet analysis helps identify security threats, understand network communication, and detect attacks.

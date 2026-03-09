@@ -1,0 +1,75 @@
+# Reconnaissance
+
+## Objective
+
+Reconnaissance is the first step in network security testing. It involves gathering information about a target system or network before performing deeper analysis or attacks.
+
+## Types of Reconnaissance
+
+### Passive Reconnaissance
+
+Passive reconnaissance collects information without directly interacting with the target system.
+
+Examples include:
+
+* WHOIS lookup
+* DNS lookup
+* Search engine analysis
+* Public databases
+
+#### WHOIS
+
+WHOIS is used to find domain registration details such as owner information, registrar, and contact details.
+
+Example command:
+
+```
+whois example.com
+```
+
+#### NSLOOKUP
+
+NSLOOKUP helps identify the IP address of a domain and the DNS server information.
+
+Example command:
+
+```
+nslookup example.com
+```
+
+#### Google Dorking
+
+Google dorking is a technique used to find sensitive information using advanced search queries.
+
+Example:
+
+```
+site:example.com filetype:pdf
+```
+
+### Active Reconnaissance
+
+Active reconnaissance directly interacts with the target system.
+
+Examples:
+
+* Ping sweep
+* Banner grabbing
+
+#### Ping Sweep
+
+Used to identify active hosts in a network.
+
+Example command:
+
+```
+ping 192.168.1.1
+```
+
+#### Banner Grabbing
+
+Banner grabbing collects information about services running on a system.
+
+## Conclusion
+
+Reconnaissance helps security professionals understand the target environment before performing scanning or exploitation.

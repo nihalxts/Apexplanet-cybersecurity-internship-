@@ -1,0 +1,56 @@
+# Firewall Basics
+
+## Objective
+
+A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predefined rules.
+
+It acts as a barrier between a trusted network and an untrusted network.
+
+## Firewall in Linux
+
+Linux systems commonly use iptables to configure firewall rules.
+
+## Viewing Firewall Rules
+
+To view existing rules:
+
+```
+sudo iptables -L
+```
+
+This command lists all active firewall rules.
+
+## Allowing a Specific Port
+
+To allow traffic on a specific port:
+
+Example: Allow SSH (Port 22)
+
+```
+sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+```
+
+## Blocking a Specific Port
+
+Example: Block HTTP (Port 80)
+
+```
+sudo iptables -A INPUT -p tcp --dport 80 -j DROP
+```
+
+This prevents incoming traffic from accessing the web service.
+
+## Demonstrating Port Scan Blocking
+
+After applying firewall rules, a port scan can be performed using a scanning tool.
+
+If the firewall blocks the port, the scan result may show the port as:
+
+* filtered
+* closed
+
+This demonstrates the effectiveness of firewall rules.
+
+## Conclusion
+
+Firewalls are an important part of network security and help protect systems from unauthorized access.
