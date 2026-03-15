@@ -1,0 +1,34 @@
+# Command Injection Attack - DVWA
+
+## Introduction
+
+Command Injection is a vulnerability that allows attackers to execute system commands on the server through a web application.
+
+## Objective
+
+The objective of this task was to demonstrate how command injection works in DVWA.
+
+## Tools Used
+
+* Kali Linux
+* DVWA
+* Web Browser
+
+## Steps Performed
+
+1. Logged into DVWA.
+2. Set the security level to **Low**.
+3. Navigated to the **Command Injection** section.
+4. Entered the following command in the input field:
+
+127.0.0.1; ls
+
+5. Clicked **Submit**.
+
+## Result
+
+The application executed the additional command and displayed the directory contents of the server.
+
+## Conclusion
+
+Command Injection vulnerabilities allow attackers to execute arbitrary commands on the server, which can lead to full system compromise.

@@ -1,0 +1,33 @@
+# Brute Force Attack - DVWA
+
+## Introduction
+
+A Brute Force attack is a method used by attackers to guess login credentials by trying many combinations of usernames and passwords.
+
+## Objective
+
+The objective of this task was to demonstrate how weak authentication systems can be exploited using brute force techniques.
+
+## Tools Used
+
+* Kali Linux
+* DVWA
+* Web Browser
+
+## Steps Performed
+
+1. Logged into DVWA.
+2. Set the security level to **Low**.
+3. Navigated to the **Brute Force** section.
+4. Tried common username and password combinations such as:
+
+admin / password
+admin / admin
+
+## Result
+
+The login was successful when the correct credentials were guessed.
+
+## Conclusion
+
+Brute force attacks can be prevented by implementing strong passwords, account lockout mechanisms, and multi-factor authentication.

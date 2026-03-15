@@ -1,0 +1,34 @@
+# SQL Injection Attack - DVWA
+
+## Introduction
+
+SQL Injection is a type of web vulnerability where an attacker can manipulate database queries by inserting malicious SQL code into input fields.
+
+## Objective
+
+The objective of this test was to demonstrate how SQL Injection can be used to access database information in DVWA.
+
+## Tools Used
+
+* Kali Linux
+* DVWA (Damn Vulnerable Web Application)
+* Web Browser
+
+## Steps Performed
+
+1. Logged into DVWA using default credentials.
+2. Set the DVWA security level to **Low**.
+3. Navigated to the **SQL Injection** section.
+4. Entered the following payload in the input field:
+
+1' OR '1'='1
+
+5. Clicked **Submit**.
+
+## Result
+
+The application displayed all user records from the database. This happened because the SQL query was manipulated using the injection payload.
+
+## Conclusion
+
+SQL Injection allows attackers to bypass authentication and access sensitive data from the database if proper input validation is not implemented.
