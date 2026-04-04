@@ -1,0 +1,19 @@
+1. Definition and Concept
+
+Social engineering is a method of manipulating people to reveal confidential information. It focuses on human behavior rather than technical vulnerabilities.
+
+2. Phishing Attacks
+
+Phishing involves creating fake websites or emails that look real. Users unknowingly enter their login credentials, which are then stolen by attackers.
+
+3. Pretexting and Baiting
+
+Pretexting involves pretending to be a trusted person to gain information. Baiting uses attractive offers (like free downloads) to trick users into compromising security.
+
+4. Human Weakness
+
+Social engineering works because it exploits trust, fear, and curiosity. Even secure systems can be compromised if users are not careful.
+
+5. Prevention
+
+Awareness and training are the best defenses. Users should verify sources before sharing information and avoid clicking suspicious links.

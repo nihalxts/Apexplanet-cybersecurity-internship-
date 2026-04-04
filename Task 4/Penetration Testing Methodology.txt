@@ -1,0 +1,19 @@
+1. Reconnaissance (Information Gathering)
+
+This is the first step where basic information about the target system is collected. It includes finding IP addresses, domain names, and network details. This can be done using tools or publicly available data. The goal is to understand the target before attacking.
+
+2. Scanning
+
+In this phase, tools like Nmap are used to scan the target system. It helps identify open ports and running services. This information is important because attackers use these open services to find entry points into the system.
+
+3. Enumeration
+
+Enumeration involves collecting more detailed information about the services found during scanning. This includes usernames, system versions, and configurations. It helps in identifying specific vulnerabilities that can be exploited.
+
+4. Exploitation
+
+This is the phase where vulnerabilities are actively used to gain access to the system. Tools like Metasploit are used to perform exploitation. If successful, the attacker can gain user or root-level access.
+
+5. Post-Exploitation & Reporting
+
+After gaining access, actions like gathering system information and maintaining access are performed. Finally, all findings are documented in a report, including vulnerabilities and solutions to fix them.
