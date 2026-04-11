@@ -1,0 +1,24 @@
+# Capstone Project - Web Application Pentesting (DVWA)
+
+## Objective
+To identify vulnerabilities in a web application using DVWA.
+
+## Tools Used
+- Kali Linux
+- DVWA
+- Nmap
+- Hydra
+
+## Attacks Performed
+- SQL Injection
+- Brute Force Attack (Hydra)
+- Cross Site Scripting (XSS)
+
+## Results
+Successfully identified vulnerabilities and demonstrated attacks.
+
+## Screenshots
+(Add your screenshots here)
+
+## Conclusion
+This project helped me understand real-world web vulnerabilities and how to exploit them.
