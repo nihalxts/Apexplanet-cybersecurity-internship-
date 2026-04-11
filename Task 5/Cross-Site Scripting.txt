@@ -1,0 +1,5 @@
+Cross-Site Scripting, commonly known as XSS, is a type of vulnerability where attackers inject malicious scripts into web pages that are viewed by other users. This vulnerability occurs when a web application does not properly sanitize user input before displaying it on the webpage.
+
+In this project, XSS was demonstrated using DVWA by entering a simple JavaScript payload such as <script>alert('XSS')</script> into an input field. When the input was submitted, the browser executed the script and displayed a popup message. This confirms that the application is vulnerable to XSS attacks.
+
+The impact of XSS can be severe as it allows attackers to steal user session cookies, perform actions on behalf of the user, or redirect users to malicious websites. To prevent XSS vulnerabilities, developers should sanitize all user inputs, encode output data, and implement security measures like Content Security Policy (CSP). Proper handling of user input is essential to ensure that scripts are not executed unintentionally.

@@ -1,0 +1,5 @@
+A brute force attack is a method used by attackers to gain access to an account by trying multiple password combinations until the correct one is found. This type of attack is very effective when applications do not have proper security controls like login attempt limits or strong password requirements.
+
+In this project, the brute force attack was performed using Hydra, which is a powerful password cracking tool available in Kali Linux. A password list was first created containing common passwords. Hydra was then used to automatically test each password against the login form of DVWA. After running the command, Hydra successfully identified the correct password for the admin account.
+
+This demonstrates how attackers can easily break into accounts if weak passwords are used and no protection mechanisms are implemented. The impact of such attacks includes unauthorized access, data theft, and compromise of user accounts. To prevent brute force attacks, applications should implement account lockout mechanisms, CAPTCHA, and enforce strong password policies.

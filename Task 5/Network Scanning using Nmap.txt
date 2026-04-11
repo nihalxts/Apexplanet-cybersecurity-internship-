@@ -1,0 +1,5 @@
+Network scanning is an important step in penetration testing where the attacker gathers information about the target system. It helps in identifying open ports, running services, and potential entry points into the system.
+
+In this project, Nmap was used to perform network scanning on the target machine. The scan revealed open ports such as port 80, which indicates that a web server is running. This information is useful for attackers as it helps them decide which type of attack to perform next.
+
+Network scanning plays a crucial role in both offensive and defensive security. Attackers use it to find vulnerabilities, while security professionals use it to identify and fix weaknesses in their systems. To reduce risks, unnecessary ports should be closed, firewalls should be configured properly, and systems should be regularly monitored.
